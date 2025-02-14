@@ -20,7 +20,8 @@ npx @tailwindcss/cli -i resources/css/input.css -o resources/css/output.css --wa
 Opted to not use the CDN and instead bundled js concerns using [Laravel-Mix](https://laravel-mix.com)
 
 ```bash
+# install Dependencies locally with
+npm i
+# then generate /dist/app.js with
 npx mix 
 ```
-
-Should generate the necessary /dist/app.js
